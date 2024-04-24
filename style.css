@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 30px;
+}
+main{
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 50px;
+    /* height: 70%; */
+    width: 70%;
+    border-radius: 4px;
+}
+.main-head{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#box1{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+}
+#taskTitle{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 280px;
+    border-radius: 4px;
+    border: none;
+}
+#taskDesc{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 280px;
+    border-radius: 4px;
+    border: none;
+}
+#box2{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    height: 60%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#add-btn{
+    background-image: linear-gradient(135deg, coral 30%, lightcoral 50%);
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* opacity: 0.6;
+    cursor: not-allowed; */
+    
+}
+.title{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.desc{
+    color: #fff;
+    font-size: 15px;
+    display: none;
+}
+.btn{
+    cursor: pointer;
+}
+.editBtn{
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.delBtn{
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+.detailBtn{
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    font-size: 15px;
+    margin-left: 10px;
+
+}
+td{
+    padding-top: 10px;
+}
+.btn-row{
+    text-align: end;
+}
+label{
+    font-size: 15px;
+    margin-right: 10px;
+}
+/* .checkBox{
+    background-color: #fff;
+    font-size: 6px;
+} */
